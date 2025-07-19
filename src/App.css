@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-image:linear-gradient(to right, #32A387 , #a05805 , #f2cf06 , #d306f2); */
+  background-image: url('/public/img/Mo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.MainPart{
+    text-align: center;
+    width: 376px;
+    border: 1px solid #000;
+    border-radius: 74px;
+    box-shadow: #05b4e4fa 0px 0px 10px;
+    height: 240px;
+    margin: 15px;
+}
+h1{
+  margin: 24px;
+}
+.input-box {
+  justify-content: center;
+  height: 44px;
+  margin: 13px;
+  padding: 9px;
+  display: flex;
+}
+.input-box > input {
+    padding: 5px;
+    margin: 6px;
+    width: 29px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    height: 24px;
+    width: 49px;
+}
+.btn-start {
+  height: 54px;
+  width: 96px;
+  margin: 4px;
+  padding: 14px;
+  font-size: 19px;
+  background: purple;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+}
+.timer-box{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 6px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+.timer-button {
+  height: 22px;
+  width: 68px;
+  margin: 4px;
+  padding: 14px;
+  font-size: 19px;
+  background: #000000;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.action-box{
+  display: flex;
+  justify-content: center;
+}
